@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.navbar {
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+.navbar_links {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+}
+.navbar_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  color: #ffff
+}
+.button:hover {
+  background: #4837ff;
+  transition: all 0.38s ease;
+  
+}
+.navbar_links:hover {
+  background: #f77062;
+  transition: all 0.38s ease
+}
+@media screen and (max-width: 960px) {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  height: 80px;
+  z-index: 1;
+  max-width: 1300px;
+  width: 100%;
+  
+}
+.content {
+  background: #131313;
+  display: flex;
+  
+  font-size: 1.2rem;
+  *position: sticky;
+  top: 50;
+  *z-index: 999;
+}
+.intro{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+  
+  
+}
+h5 {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+}
+.logo {
+
+  display: flex;
+  justify-content: space-between;
+  align-item: left;
+  
+  width: 100%;
+  left: 200;
+ 
+  margin: auto;
+  padding: 0 50px;
+ 
+  
+  
+  
+}
+.contact {
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.contact:hover{
+  color: #3339f0;
+  background-color: #e1bc56;
+}
+
+.main-content {
+  background: #e1bc56;
+  
+}
+.main-content p {
+  color: white
+}
