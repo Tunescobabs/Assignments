@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: beige;
+      display: flex;
+      place-items: center;
+      min-height: 100vh;
+    }
+
+    main {
+      display: grid;
+      grid-template-areas:'a a b'
+                          'a a b'
+                          'c d d'
+                          'c e e'
+      ;
+      gap: 10px;
+      width: 50%;
+      margin: auto;
+    }
+
+    main div {
+      padding: 2em;
+      text-align: center;
+      
+    }
+
+    .item-a {
+      background-color: #FF8F35;
+      grid-area: a;
+    }
+
+    .item-b {
+
+      background-color: #FFD20F;
+      grid-area: b;
+    }
+
+    .item-c {
+      background-color: #00FF40;
+      grid-area: c;
+    }
+
+    .item-d {
+      background-color: #5BD3FF;
+      grid-area: d;
+    }
+
+    .item-e {
+      background-color: #5BD3FF;
+      grid-area: e;
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+    <main>
+      <div class="item-a"></div>
+      <div class="item-b"></div>
+      <div class="item-c"></div>
+      <div class="item-d"></div>
+      <div class="item-e"></div>
+
+    </main>
+
+  </body>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
